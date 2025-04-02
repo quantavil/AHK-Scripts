@@ -23,3 +23,7 @@ This script integrates with the Gemini API to process selected text. It performs
 Copies the selected text to the clipboard.
 Sends a request to the Gemini API with a prompt to extract vocabulary words and their synonyms from the selected text, convert them to uppercase, and join them using semicolons.
 Replaces the selected text with the processed text from the API response. The script includes configuration options for the API key, prompt, and path to the curl executable. It also uses a JSON library for handling the API response.
+
+## vigem.ahk
+AHK Script: Extract Text from Clipboard Image using Gemini API
+This AutoHotkey (v1.1) script provides Optical Character Recognition (OCR) like functionality by leveraging the Google Gemini Vision API. When you copy an image to the clipboard and press the Ctrl+Alt+G hotkey, the script sends the image to the Gemini API, extracts any text found within it, displays the text in a message box, and automatically copies the extracted text back to the clipboard for immediate use.
