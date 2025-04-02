@@ -3,7 +3,7 @@
 SetBatchLines -1 ; For performance
 
 ; --- Configuration ---
-GEMINI_API_KEY := "AIzaSyC-_-uHjWmfZysK5nHcbGqbViZ68NhLz8Q" ; <<< IMPORTANT: Replace with your actual API Key!
+GEMINI_API_KEY := "" ; <<< IMPORTANT: Replace with your actual API Key!
 ; Model capable of vision input. gemini-1.5-flash-latest is generally recommended.
 GEMINI_MODEL := "gemini-2.0-flash" 
 ; Hotkey to trigger the script
