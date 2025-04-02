@@ -2,7 +2,7 @@
 SetWorkingDir %A_ScriptDir%
 
 ; --- Configuration ---
-apiKey := "AIzaSyC-_-uHjWmfZysK5nHcbGqbViZ68NhLz8Q" ; --- PASTE YOUR KEY HERE ---
+apiKey := "" ; --- PASTE YOUR KEY HERE ---
 basePrompt := "Extract all vocabulary words and their synonyms from the given text, convert them to uppercase, and join them using semicolons"
 curlPath := "curl.exe" ; Use full path if not in system PATH
 #Include JSON.ahk      ; Include JSON library (ensure it's accessible)
