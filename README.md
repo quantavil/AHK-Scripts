@@ -27,3 +27,6 @@ Replaces the selected text with the processed text from the API response. The sc
 ## vigem.ahk
 AHK Script: Extract Text from Clipboard Image using Gemini API
 This AutoHotkey (v1.1) script provides Optical Character Recognition (OCR) like functionality by leveraging the Google Gemini Vision API. When you copy an image to the clipboard and press the Ctrl+Alt+G hotkey, the script sends the image to the Gemini API, extracts any text found within it, displays the text in a message box, and automatically copies the extracted text back to the clipboard for immediate use.
+
+## Gdip_All.ahk
+The Gdip_All.ahk script is a comprehensive AutoHotkey (AHK) script that provides an extensive set of functions for working with GDI+ graphics in AHK. It includes various functions for drawing, handling bitmaps, performing operations with device contexts (DCs), and working with system colors and icons. This script supports both AHK v1 and v2, ensuring compatibility across different versions. It is a modified and updated version of the original GDI+ library by tic (Tariq Porter), with contributions from several other developers to fix bugs and add new features.
